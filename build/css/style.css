@@ -747,40 +747,13 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (max-width: 540px) {
+@media (min-width: 640px) {
   .sm\:h-\[50px\] {
     height: 50px;
   }
 
   .sm\:w-\[50px\] {
     width: 50px;
-  }
-
-  .sm\:w-screen {
-    width: 100vw;
-  }
-
-  .sm\:w-full {
-    width: 100%;
-  }
-
-  .sm\:w-\[100vw\] {
-    width: 100vw;
-  }
-
-  .sm\:bg-blue-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-red-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-red-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
   }
 }
 
@@ -803,15 +776,6 @@ video {
 
   .md\:w-\[15\%\] {
     width: 15%;
-  }
-
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:bg-red-700 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
   }
 
   .md\:text-2xl {
@@ -846,10 +810,6 @@ video {
     width: 75px;
   }
 
-  .xmd\:w-screen {
-    width: 100vw;
-  }
-
   .xmd\:gap-x-1 {
     -moz-column-gap: 0.25rem;
          column-gap: 0.25rem;
@@ -863,5 +823,78 @@ video {
   .xmd\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .xsm\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .xsm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .xsm\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .xsm\:h-\[20\%\] {
+    height: 20%;
+  }
+
+  .xsm\:h-5 {
+    height: 1.25rem;
+  }
+
+  .xsm\:h-8 {
+    height: 2rem;
+  }
+
+  .xsm\:w-screen {
+    width: 100vw;
+  }
+
+  .xsm\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .xsm\:w-\[50px\] {
+    width: 50px;
+  }
+
+  .xsm\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .xsm\:w-5 {
+    width: 1.25rem;
+  }
+
+  .xsm\:w-8 {
+    width: 2rem;
+  }
+
+  .xsm\:bg-red-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  }
+
+  .xsm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xsm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .xsm\:text-\[0\.50rem\] {
+    font-size: 0.50rem;
+  }
+
+  .xsm\:text-\[0\.60rem\] {
+    font-size: 0.60rem;
   }
 }

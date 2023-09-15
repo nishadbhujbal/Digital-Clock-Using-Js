@@ -7,7 +7,7 @@ module.exports = {
       screens: {
         'md': { 'max': '865px' },
         'xmd': { 'max': '750px' },
-        'sm': { 'max': '540px' },
+        'xsm': { 'max': '540px' },
       },
       fontFamily: {
         orbitron: ['Orbitron'],
