@@ -1,9 +1,8 @@
-My JavaScript Date Object Practice Project
-Project Demo
+Digital Clock Using Js
 
 I created this practice project to enhance my understanding of the JavaScript Date object and to experiment with responsive design techniques using Tailwind CSS.
 
-Live Demo:
+Live Demo: https://digitalclock-0k6u.onrender.com/
 
 Project Overview
 In this project, I've built a straightforward web application that leverages the JavaScript Date object to display dynamic date and time information. Additionally, I've incorporated responsive design practices with Tailwind CSS to ensure a seamless user experience across various devices and screen sizes.
